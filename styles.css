@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+.rightnav {
+  display: flex;
+  padding: 1em;
+}
+.leftnav {
+  padding: 1em;
+}
+li {
+  list-style-type: none;
+}
+a {
+  padding: 0.6em 0.6em;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 3px;
+}
+a:hover {
+  background-color: gray;
+}
+.burger {
+  width: 100%;
+}
+.section1 {
+  display: flex;
+  justify-content: baseline;
+}
+.about {
+  text-align: center;
+  padding-top: 12em;
+}
+.dessert {
+  width: 30em;
+  height: 44em;
+  padding: 14em 0em 0em 6em;
+}
+.snack {
+  width: 30em;
+  height: 44em;
+  padding: 6em 6em 0em 0em;
+}
+h1 {
+  font-size: 4rem;
+  opacity: 0.6;
+  margin-left: 3%;
+  margin-top: -190px;
+  color: white;
+}
+.heading {
+  padding: 1.5em;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+}
+.secondhead {
+  padding: 2em;
+  letter-spacing: 5px;
+}
+
+pre {
+  letter-spacing: 2px;
+  font-size: 15px;
+  text-align: left;
+  line-height: 2em;
+}
+hr {
+  border: none;
+  margin: 6em 5em 0em 5em;
+  border-top: 1px solid black;
+  display: block;
+}
+.section2 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  text-align: center;
+  padding-top: 6em;
+}
+.menutext {
+  text-align: left;
+  padding: 2em 0em 0.7em 6em;
+  letter-spacing: 2px;
+}
+.pmenu {
+  text-align: left;
+  padding: 0em 0em 0.7em 7em;
+  letter-spacing: 2px;
+  color: #6f6e6e;
+}
+.ourmenu {
+  padding-bottom: 1em;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+}
+.foter {
+  /* border: none; */
+  padding: 10px;
+  /* width: 200px; */
+}
+.input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 80em;
+  height: 4em;
+}
+.contact {
+  text-align: center;
+}
+footer {
+  width: 100%;
+  height: 10em;
+  background-color: #6f6e6e;
+}
+.cont {
+  padding: 1em 1em 1em 1em;
+  text-align: left;
+  padding-left: 2em;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+}
+#blue {
+  color: rgb(92, 92, 207);
+}
+.pcont {
+  padding: 1em 9em 1em 5em;
+  text-align: left;
+}
+.btn {
+  width: 12em;
+  height: 3em;
+  display: flex;
+  margin: 2em 0em 10em 13em;
+}
+.inputmes {
+  width: 81.6em;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  height: 4em;
+}
+h5 {
+  text-align: center;
+  padding-top: 10em;
+}
